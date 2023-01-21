@@ -1,0 +1,58 @@
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box{
+    margin-left: 400px;
+    height: 1150px;
+    width: 400px;
+    background: black;
+    border-radius: 50px;
+}
+.in_box_1{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+.text_red{
+    font-size: 50px;
+    margin-left: 90px ;
+}
+
+.in_box_2{
+    background-color: yellow;
+    height: 200px;
+    width: 300px;
+    margin-top: 100px;
+    padding-top: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+.text_yellow{
+    font-size: 50px;
+    margin-left: 90px ;
+}
+
+.in_box_3{
+    background-color: green;
+    height: 200px;
+    width: 300px;
+    margin-top: 100px;
+    padding-top: 100px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+.text_green{
+    font-size: 50px;
+    margin-left: 90px ;
+}

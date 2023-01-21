@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 3px solid black;
+    /* display: inline; Превращает в строчные */
+    /* display: inline-block; Делает и строчным и блочным */
+}
+
+span{
+    font-size: 100px;
+    background: red;
+    /* display: none; Убирает блоки */
+    /* display: block; Занимает целый блок */
+}
+
+/* Блочные элементы принимают ширину и высоту(загимают всю ширину экрана) */
+/* Строчные элементы по мере заполнености(не принимают ширину экрана) */

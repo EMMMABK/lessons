@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box  ;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 400px;
+    height: 600px;
+    background: gray;
+    border-radius: 20px;
+    box-shadow: 69px -20px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.image{
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+.box-text{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.name{
+    font-size: 50px;
+}
+
+.text{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.btn{
+    height: 50px;
+    width: 180px;
+    border: none;
+    border-radius: 40px;
+    background: gray;
+    margin-top: 50px;
+    color: black;
+    font-size: 20px;
+}

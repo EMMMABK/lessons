@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: gray;
+}
+/* .block{
+    width: 200px;
+    height: 200px;
+    background: black;
+} */
+/* .box{
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+.block:nth-child(3){
+    background: white;
+    margin-top: 200px;
+}
+.block:last-child{
+    background: rgb(45, 5, 5);
+} */ 
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .child{
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+.child:active{
+    border-radius: 50%;
+    background: green;
+} */
+.btn{
+    width: 200px;
+    height: 50px;
+    background: lawngreen;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    transition: 1s;
+}
+.btn:hover{
+    background: black;
+    width: 210px;
+    height: 55px;
+    letter-spacing: 6px;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.transform{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
+}
+.move{
+    width: 200px;
+    height: 200px;
+    background: red;
+    transition: 1s;
+}
+.move:nth-child(2):hover{
+    transform:  
+}
+/* transition указывает плавность */
+/* hover  при активности*/
+/* active при активности */
+/* translate меняет положение блока по оси х и у */
+/* rotate изменяет положение в градусах */
+/* scale изменяет размер не используется пикселя */
+/* scew искажает блок */
+.block{
+    width: 200px;
+    height: 200px;
+    background: black;
+    transition: 1s;
+}
+
+.block:hover{
+    transform: translate(50px,50px);
+
+}

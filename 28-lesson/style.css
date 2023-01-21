@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=DM+Sans&family=Heebo:wght@300;500&family=Montserrat:wght@200;300&family=Poppins:wght@200&family=Raleway:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.header{
+    width: 100%;
+    background: #E5E5E5;
+}
+.container{
+    width: 100%;
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 11px;
+}
+.header__menu{
+    display: flex;
+    column-gap: 23px;
+}
+.header__menu > li > a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+}
+/* первый secttion */
+.item{
+    width: 100%;
+    background: url('./icons/Rectangle.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 14px;
+    height: 100vh;
+    padding-top: 53px;
+}
+.item__title {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 51px;
+    color: #000000;
+}
+.item__subtitle{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.item__btn{
+    width: 200px;
+    height: 30px;
+    background: #FF4A32;
+    border-radius: 35px;
+    border: none;
+    color: white;
+}
+/* второй section */
+.about{
+    width: 100%;
+}
+.about__header{
+    width: 100%;
+}
+.about__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about__title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #000000;
+}
+.about__subtitle{
+    width: 685px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #000000;
+    text-align: center;
+}
+.about__column{
+    display: flex;
+    column-gap: 20px;
+}
+.about__card{
+    padding: 275px 224px;
+    background: url('./icons/Rectangle.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about__card__other{
+    background: url('./icons/Rectangle\ \(1\).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about__card h1{
+    width: 241px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.about__card p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.about__card img {
+    margin-left: 100px;
+}
+/* 3rd section */
+.content{
+    width: 100%;
+    background: url('./icons/Rectangle\ \(1\).jpg');
+    height: 100vh;
+}
+.content__container{
+    padding-top: 44px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.content__item{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.content__title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 51px;
+    text-align: center;
+    color: #000000;
+}
+.content__subtitle{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.content__button{
+    display: flex;
+    justify-content: center;
+}

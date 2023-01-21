@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Karla:wght@300&family=Libre+Franklin:wght@500&family=Montserrat:wght@300&family=Poppins:wght@200&family=Roboto:wght@300&family=Source+Serif+Pro&family=Tenor+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    background: #323232;
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding:  0 15px;
+}
+.header__container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    display: flex;
+    column-gap: 8px;
+    flex-grow: 1;
+}
+.header__menu{
+    display: flex;
+    column-gap: 61px;
+    flex-grow: 4;
+}
+.header__social__media{
+    display: flex;
+    column-gap: 48px;
+    flex-grow: 1;
+}
+.title{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+.header__name{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    color: #ededed;
+}
+.header__menu > li > a{
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #EDEDED;
+}
+/* 1st section */
+.item{
+    width: 100%;
+    min-height: 92px;
+    background: url('../icons/IMAGE.jpg');
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.item__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 67px;
+}
+.item__caption{
+    width: 800px;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 78px;
+    line-height: 66px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+}
+.item__caption::after{
+    content:'';
+    width: 60px;
+    height: 2px;
+    background: #FFFFFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translate(370px, 36px);
+}
+.item__title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
+    padding-top: 67px;
+}
+.item__button{
+    margin-top: 49px;
+    background: none;
+    width: 134px;
+    height: 40px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+/* 2nd section about cards */
+.card{
+    width: 100%;
+    background: #C7AA8B;    
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.block__name{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4D4D4D;
+}
+.block__title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4D4D4D;
+    width: 270px;
+}
+.card__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 102px;
+    padding-bottom: 83px;
+    flex-wrap: wrap;
+}
+/* 3rd section */
+.short{
+    width: 100%;
+    background: url('../icons/IMAGE.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.short__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 127px;
+    padding-bottom: 257px;
+}
+.short__title{
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 47px;
+    line-height: 55px;
+    color: #C7AA8B;
+    position: relative;
+    transition: 1s;
+}
+.short__title:hover{
+    transform: translate(10px, 10px);
+    text-shadow: 5px 5px black;
+}
+.short__title::before{
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: #C7AA8B;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(27px);
+}
+/* 4th section */
+.team{
+    width: 100%;
+}
+.team__team{
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 27px;
+    color: #4D4D4D;
+    transition: 1s;
+}
+.team__team:hover{ 
+    letter-spacing: 8px; 
+} 
+
+.info__name{
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+.info__title{
+    font-family: 'Vollkorn';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4D4D4D;
+}
+.team__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 92px;
+    flex-wrap: wrap;
+}
+.info__social{
+    display: flex;
+    column-gap: 10px;
+}
+.info > img{
+    transition: 0.6s;
+}
+.info > img:hover{
+    transform: translate(8px, 10px);
+    box-shadow: 17px 17px 13px -3px rgba(0, 0, 0, 0.2);
+}
+/* 5th section */
+.end{ 
+    width: 100%; 
+    background: #F7F7F7; 
+} 
+.end__container{ 
+    display: flex; 
+    flex-direction: column; 
+    row-gap: 62px; 
+    align-items: center; 
+    padding-top: 79px; 
+    padding-bottom: 125px;
+    flex-wrap: wrap; 
+} 
+.end__words{ 
+    display: flex; 
+    justify-content:center; 
+    align-items: flex-start; 
+    column-gap:62px; 
+} 
+.end__title{ 
+    font-weight: bold; 
+    font-size: 15px; 
+    line-height: 20px; 
+    text-transform: uppercase; 
+    color: rgba(50, 50, 50, 0.36); 
+    position: relative;
+} 
+.end__left{ 
+    font-weight: bold; 
+    font-size: 18px; 
+    line-height: 20px; 
+    text-align: center; 
+    color: #4D4D4D; 
+    width:361px; 
+} 
+.end__left::after{ 
+    content: 'Robert Shapiro, CEO of trulr'; 
+    font-weight: bold; 
+    font-size: 13px; 
+    line-height: 20px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    color: #C7AA8B; 
+ 
+} 
+.end__right{ 
+    font-weight: bold; 
+    font-size: 15px; 
+    line-height: 20px; 
+    text-align: center; 
+    color: #4D4D4D; 
+    width: 361px; 
+} 
+.end__right::after{ 
+    content: 'Lila stokinova, designer at nike'; 
+    font-weight: bold; 
+    font-size: 14px; 
+    line-height: 20px; 
+    text-align: center; 
+    text-transform: uppercase; 
+    color: #C7AA8B; 
+}
+.end__title::after{
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.18);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(22px, 14px);
+}
+/* footer */
+.footer{
+    width: 100%;
+    background: #323232;
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+    padding-bottom: 53px;
+}
+.footer__data{
+    display: flex;
+    column-gap: 8px;
+}
+.footer__btn{
+    background: none;
+    width: 300px;
+    height: 40px;
+    border: 2px solid #C7AA8B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #C7AA8B;
+}
+.footer__title{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #858585;
+}

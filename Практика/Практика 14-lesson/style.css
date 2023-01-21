@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+.block{
+    width: 250px;
+    height: 250px;
+    transition: 1s;
+    background: green;
+}
+.block:first-child:active{
+    transform: translateY(300px)
+}
+.block:nth-child(2):active{
+    transform: scale(0.5);
+}
+.block:nth-child(3):active{
+    transform: skew(360deg);
+}
+.block:last-child:active{
+    transform: rotate(360deg);
+}

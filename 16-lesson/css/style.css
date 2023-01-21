@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Heebo:wght@500&family=Montserrat:wght@200;300&family=Poppins:wght@200&family=Raleway:wght@200&family=Roboto+Condensed:wght@300&family=Roboto:wght@100&display=swap'); 
+*{ 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    text-decoration: none; 
+    list-style-type: none; 
+    outline: none; 
+    font-family: 'Heebo', sans-serif; 
+} 
+.header{ 
+    width: 100%; 
+    position: fixed; 
+    background: white;
+} 
+.container{ 
+    width: 100%; 
+    max-width: 1230px; 
+    margin: 0 auto; 
+    padding: 0 15px; 
+} 
+.header__container{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+.header__menu { 
+    display: flex; 
+    column-gap: 33px; 
+} 
+.header__logo > img { 
+    width: 40px; 
+} 
+.header__menu > li > a { 
+    font-weight: 500; 
+    font-size: 20px; 
+    line-height: 29px; 
+    color: black; 
+    width: 60px; 
+    position: relative; 
+} 
+.header__menu > li > a::after { 
+   content: ''; 
+   width: 100%; 
+   height: 3px; 
+   background: black; 
+   position: absolute; 
+   bottom: 0; 
+   left: 0; 
+   transform: scaleX(0); 
+   transition: 0.4s; 
+} 
+.header__menu > li > a:hover::after{ 
+    transform: scaleX(1); 
+} 
+/* начало section */ 
+.page__about{ 
+    width: 100%; 
+    min-height: 100vh; 
+} 
+.page__about__container{ 
+    height: 100vh; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;     
+}
+.page__about__info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.page__about__name{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    width: 450px;
+}
+.page__about__title{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    width: 470px;
+}
+.page__about__btn{
+    width: 208px;
+    height: 47px;
+    background: #FF6464;
+    border-radius: 2px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+/* второй section */
+.work{
+    width: 100%;
+}
+.work__container{
+   display: flex;
+   flex-direction: column;
+   row-gap: 40px; 
+}
+.block{
+    display: flex;
+    column-gap: 18px;
+}
+.block__data{
+    display: flex;
+    column-gap: 26px;
+}
+.block__data > div{
+    width: 62px;
+    height: 25px;
+    background: #21243D;
+    border-radius: 16px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block__data > p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.block__name{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+.block__about{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    padding-top: 17px
+}
+/* третий section */
+.posts{
+    height: 400px;
+    background: #EDF7FA;
+}
+.posts__container{
+    display: flex;
+    row-gap: 20px;
+}
+.posts__block{
+    position: absolute;
+    width: 418px;
+    height: 295px;
+    left: 148px;
+    top: 664px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+.posts__block__one{
+    position: absolute;
+    width: 418px;
+    height: 295px;
+    left: 700px;
+    top: 664px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+.post__name{
+    padding-top: 24px;
+    padding-left: 23px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+.post__data{
+    padding-top: 16px;
+    padding-left: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+.post__title{
+    padding-top: 16px;
+    padding-left: 23px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.recent{
+    position: absolute;
+    height: 60px;
+    left: 148px;
+    top: 602px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-end;
+    color: #21243D;
+}
+/* footer */
+.footer{
+    background: #FFFFFF;
+    height: 170px;
+}
+.img__links{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    column-gap: 20px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}

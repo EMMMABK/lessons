@@ -1,0 +1,94 @@
+/* Тут устанваливает сам шрифт */
+.font-family{
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+}
+/* .font-family устнаваливает размер шрифта*/
+.size{
+    font-size: 50px;
+}
+/* weight жирность текста */
+.weight{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+/* Определяет где будет текст или разтягивает */
+.align{
+    text-align: justify;
+}
+/* Дает декорацию  тексту overline underline none*/
+.decoration{
+    text-decoration: overline; 
+}
+/* SHADOW тень */
+.shadow{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: justify;
+    text-decoration: underline;
+    text-shadow: 50px 100px 6px gray;
+}
+/* Делает траснформацию текста */
+.transform{
+    text-transform: uppercase;
+}
+/* Расстояние между буквами */
+.letter{
+    letter-spacing: 20px;
+}
+/* Высоту текста  (между абзацами)*/
+.height{
+    line-height: 100px;
+}
+/*Расстояние между словами */
+.word{
+    word-spacing: 20px;
+}
+
+
+
+
+.name{
+    color: blue;;
+    font-size: 90px;
+    text-shadow: 10px 10px 0px black;
+    font-weight: 100;
+}
+
+.par{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.par2{
+    color: blueviolet;
+    text-align: center;
+    font-size: 25px;
+}
+
+.par3{
+    text-align: right;
+    font-size: 25px;
+}
+
+.par4{
+    text-align: right;
+    font-size: 25px;
+}
+
+.par5{
+    text-decoration: line-through;
+    text-align: right;
+    font-size: 25px;
+}
+.par43{
+    text-align: left;
+    font-size: 30px;
+}
+.par6{
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+

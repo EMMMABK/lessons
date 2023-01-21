@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; 
+    row-gap: 10px;
+    background: gray;
+}
+.block{
+    width: 250px;
+    height: 250px;
+    background: green;
+    border: solid 10px black;
+    font-size: 40px;
+}
+

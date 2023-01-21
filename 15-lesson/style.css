@@ -1,0 +1,105 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+.block{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    left: 550px;
+    top: 50px;
+    z-index: 0;
+}
+.block__green{
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    top: 110px;
+    left: 600px;
+    z-index: 1;
+}
+.block__yellow{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    position: absolute;
+    left: 500px;
+    z-index: 2;
+}
+.block__first{ 
+    width: 50px; 
+    height: 50px; 
+    background: green; 
+    position: absolute; 
+    z-index: 0; 
+} 
+.block__first__green{ 
+    width: 50px; 
+    height: 50px; 
+    background:red; 
+    position: absolute; 
+    z-index: 1; 
+    left: 30px; 
+    top: 30px; 
+} 
+.block__first__yellow{ 
+    width: 50px; 
+    height: 50px; 
+    background: yellow; 
+    position: absolute; 
+    z-index: 2; 
+    left: 60px; 
+    top: 60px; 
+}
+.block__second{ 
+    width: 50px; 
+    height: 50px; 
+    background: green; 
+    position: absolute; 
+    left: 1000px;
+    z-index: 0; 
+} 
+.block__second__green{ 
+    width: 50px; 
+    height: 50px; 
+    background:red; 
+    position: absolute; 
+    z-index: 1; 
+    left: 1030px; 
+    top: 30px; 
+} 
+.block__second__yellow{ 
+    width: 50px; 
+    height: 50px; 
+    background: yellow; 
+    position: absolute; 
+    z-index: 0; 
+    left: 1060px; 
+    top: 60px; 
+} */
+.add{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    position: relative;
+}
+.add::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background: black;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.add:hover::after{
+    width: 150px;
+}
+ /* relative-элемент позиционируется в соответствии с нормальным потоком документа, а затем смещается относительно себя на основе значений top, right, bottom и left. Смещение не влияет на положение любых других элементов */
+/* absolute-элемент удаляется из обычного потока документов, и для элемента в макете страницы не создаётся пробела. Он расположен относительно его ближайшего относительно позиционированного предка, если таковой имеется; в противном случае он помещается относительно исходного содержащего блока. Его конечная позиция определяется значениями top, right, bottom, и left */
+/* fixed  видно всегда например на header */

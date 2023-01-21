@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.sample{
+    width: 450px;
+    height: 100px;
+    background-color: purple;
+    border: 1px slid black;
+    color: aliceblue;
+    justify-content: center;
+}
+.block{
+    width: 450px;
+    height: 100px;
+    background: blue;
+    align-items: center;
+}
